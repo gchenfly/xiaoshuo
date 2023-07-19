@@ -1,0 +1,63 @@
+.box_con {
+	margin: 10px auto; border: 2px solid rgb(136, 198, 229); width: 976px; line-height: 100%; overflow: hidden;
+}
+.con_top {
+	width: 100%; height: 40px; line-height: 40px; padding-left: 10px; border-bottom-color: rgb(136, 198, 229); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(225, 236, 237);
+}
+.con_top #bdshare {
+	height: 20px; text-align: right; line-height: 20px; padding-top: 9px; padding-right: 20px; float: right;
+}
+#sidebar {
+	width: 264px; text-align: left; border-left-color: rgb(136, 198, 229); border-left-width: 1px; border-left-style: dashed; float: right; _width: 270px;
+}
+#sidebar .xian {
+	width: 100%; height: 1px; overflow: hidden; border-top-color: rgb(136, 198, 229); border-top-width: 1px; border-top-style: dashed;
+}
+.sidebartitle {
+	width: 100%; line-height: 150%; overflow: hidden; padding-top: 2px; padding-left: 10px; font-size: 11pt; font-weight: bold; white-space: nowrap; text-overflow: ellipsis; -o-text-overflow: ellipsis;
+}
+.sidebarlist {
+	line-height: 100%; overflow: hidden; padding-left: 20px; margin-bottom: 5px; _height: 187px;
+}
+.sidebarlist a {
+	width: 49.5%; line-height: 200%; overflow: hidden; float: left; white-space: nowrap; text-overflow: ellipsis; _width: 49%; -o-text-overflow: ellipsis;
+}
+#maininfo {
+	width: 700px; float: left; max-height: 430px; _width: 670px;
+}
+#fmimg {
+	margin: 12px; padding: 12px; width: 126px; float: left; background-color: rgb(225, 236, 237);
+}
+#fmimg img {
+	margin: 3px; border: currentColor; width: 120px; height: 150px;
+}
+#info {
+	margin: 10px; padding: 0px 10px; height: 203px; font-size: 15px; max-height: 195px; _height: 190px;
+}
+#info h1 {
+	margin: auto; padding: 1px; height: 44px; line-height: 44px; overflow: hidden; font-family: "ºÚÌå"; font-size: 28px; font-weight: bold; _height: 22px; _font-size: 22px; _line-height: 22px;
+}
+#info p {
+	margin: auto; width: 440px; height: 25px; line-height: 25px; overflow: hidden; padding-top: 2px; float: left;
+}
+#intro {
+	padding: 10px; width: 100%; line-height: 200%; overflow: hidden; font-size: 13px; border-top-color: rgb(136, 198, 229); border-top-width: 1px; border-top-style: dashed; _height: 190px;
+}
+#list {
+	padding: 2px;
+}
+#list dl {
+	margin: auto; overflow: hidden; padding-bottom: 1px; float: left;
+}
+#list dt {
+	background: rgb(195, 223, 234); margin: auto auto 5px; padding: 5px 10px; width: 98%; text-align: center; line-height: 28px; overflow: hidden; font-size: 14px; vertical-align: middle; float: left; display: inline;
+}
+#list dd {
+	width: 33%; height: 25px; text-align: left; line-height: 200%; text-indent: 10px; overflow: hidden; margin-bottom: 5px; vertical-align: middle; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dashed; float: left; display: inline;
+}
+#list dd a:link {
+	color: rgb(68, 68, 68); text-decoration: none;
+}
+#list dd a:visited {
+	color: rgb(23, 129, 2); text-decoration: underline;
+}

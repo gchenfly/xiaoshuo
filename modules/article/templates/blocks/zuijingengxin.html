@@ -1,0 +1,4 @@
+
+{?section name=i loop=$articlerows?}
+<li><span class="s1">[{?$articlerows[i].type?}]</span><span class="s2"><a href="/read/{?$articlerows[i].articleid?}.html">{?$articlerows[i].articlename?}</a></span><span class="s3"><a href="/read/{?$articlerows[i].articleid?}/{?$articlerows[i].lastchapterid?}.html" target="_blank">{?$articlerows[i].lastchapter?}</a></span><span class="s4">{?$articlerows[i].author?}</span><span class="s5">{?$articlerows[i].uptime|date:"Y-m-d H:i:s"?}</span></li>
+{?/section?}

@@ -1,0 +1,11 @@
+
+{?section name=i loop=$articlerows?}
+      <div class="item">
+        <div class="image"><a href="/read/{?$articlerows[i].articleid?}.html">><img src="{?$articlerows[i].url_image?}" alt="{?$articlerows[i].articlename?}" width="120px" height="150px"/></a></div>
+        <dl>
+           <dt><span>×÷Õß£º{?$articlerows[i].author?}</span><a href="/read/{?$articlerows[i].articleid?}.html">{?$articlerows[i].articlename?}</a></dt>
+           <dd>{?$articlerows[i].intro?}</dd>
+        </dl>
+		<div class="clear"></div>
+		</div>
+{?/section?}

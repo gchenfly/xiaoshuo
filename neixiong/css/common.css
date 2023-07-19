@@ -1,0 +1,213 @@
+html {
+	margin: auto; padding: 0px;
+}
+body {
+	margin: auto; padding: 0px;
+}
+ul {
+	margin: auto; padding: 0px;
+}
+ol {
+	margin: auto; padding: 0px;
+}
+li {
+	margin: auto; padding: 0px;
+}
+p {
+	margin: auto; padding: 0px;
+}
+h1 {
+	margin: auto; padding: 0px;
+}
+h2 {
+	margin: auto; padding: 0px;
+}
+h3 {
+	margin: auto; padding: 0px;
+}
+h4 {
+	margin: auto; padding: 0px;
+}
+h5 {
+	margin: auto; padding: 0px;
+}
+h6 {
+	margin: auto; padding: 0px;
+}
+table {
+	margin: auto; padding: 0px;
+}
+td {
+	margin: auto; padding: 0px;
+}
+th {
+	margin: auto; padding: 0px;
+}
+img {
+	margin: auto; padding: 0px;
+}
+div {
+	margin: auto; padding: 0px;
+}
+dl {
+	margin: auto; padding: 0px;
+}
+dt {
+	margin: auto; padding: 0px;
+}
+dd {
+	margin: auto; padding: 0px;
+}
+input {
+	margin: auto; padding: 0px;
+}
+select {
+	margin: auto; padding: 0px;
+}
+form {
+	margin: auto; padding: 0px;
+}
+fieldset {
+	margin: auto; padding: 0px;
+}
+img {
+	border: 0px currentColor;
+}
+ul li {
+	list-style: none;
+}
+a {
+	color: rgb(111, 120, 167); text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.clear {
+	margin: auto; padding: 0px; height: 0px; line-height: 0; clear: both; font-size: 0px;
+}
+body {
+	color: rgb(85, 85, 85); font-family: "Microsoft YaHei","Î¢ÈíÑÅºÚ","ËÎÌå"; font-size: 13px; background-color: rgb(233, 250, 255);
+}
+.header {
+	margin: auto; width: 980px; height: 61px;
+}
+.header_logo a {
+	background: url("/images/logo.gif") no-repeat; width: 250px; height: 60px; text-indent: -9999px; float: left; display: block;
+}
+.header_search {
+	margin: 20px auto auto 30px; width: 450px; overflow: hidden; float: left;
+}
+.header_search input.search {
+	font: 16px/22px arial; padding: 3px; border: 1px solid rgb(166, 211, 232); width: 320px; height: 24px; margin-right: 5px; font-size-adjust: none; font-stretch: normal;
+}
+.header_search button {
+	background: rgb(221, 221, 221); width: 95px; height: 32px; font-size: 14px; cursor: pointer;
+}
+#auto_div {
+	padding: 0px; position: absolute; background-color: white;
+}
+.autoinput {
+	padding-top: 3px; padding-right: 0px; padding-left: 4px;
+}
+.sug1 {
+	line-height: 18px; padding-top: 3px; padding-bottom: 3px; font-size: 10pt;
+}
+.addborder {
+	border: 1px solid rgb(140, 140, 140);
+}
+.userpanel {
+	padding: 5px 3px; border: 1px dotted rgb(136, 198, 229); width: 220px; text-align: center; color: rgb(158, 158, 158); margin-top: 3px; margin-right: 5px; float: right;
+}
+.userpanel p {
+	width: 220px; height: 26px; text-align: center; float: left;
+}
+.userpanel a {
+	color: rgb(158, 158, 158); line-height: 200%;
+}
+.nav {
+	background: rgb(136, 198, 229); margin: 10px auto auto; width: 980px; height: 40px; overflow: hidden;
+}
+.nav ul li {
+	line-height: 44px; float: left;
+}
+.nav ul li a {
+	padding: 0px 17px; color: rgb(255, 255, 255); font-size: 15px; font-weight: bold;
+}
+.ywtop {
+	width: 100%; height: 35px; color: rgb(128, 128, 128); border-bottom-color: rgb(166, 211, 232); border-bottom-width: 1px; border-bottom-style: solid; min-width: 950px; background-color: rgb(225, 236, 237);
+}
+.ywtop a {
+	color: rgb(128, 128, 128);
+}
+.ywtop_con {
+	margin: 0px auto; width: 950px; line-height: 35px; text-indent: 16px; vertical-align: middle;
+}
+.ywtop_sethome {
+	background: url("/images/sethome.gif") no-repeat 0px 10px; margin-right: 20px; float: left; display: inline;
+}
+.ywtop_addfavorite {
+	background: url("/images/addfavorites.gif") no-repeat 0px 10px; float: left; display: inline;
+}
+.ywtop_input {
+	float: right;
+}
+.navt {
+	padding: 7px 0px 0px; height: 28px; overflow: hidden;
+}
+.navt .nle {
+	width: 250px; overflow: hidden; float: left;
+}
+.nle .sy {
+	width: 120px; float: left;
+}
+.navt .nri {
+	overflow: hidden; float: right;
+}
+.nri .cc {
+	width: 155px; overflow: hidden; float: left;
+}
+.cc .txt {
+	text-align: right; color: rgb(128, 128, 128); float: left;
+}
+.cc .inp {
+	width: 90px; padding-top: 7px; float: left;
+}
+.inp input {
+	margin: 1px 0px; border: 1px solid rgb(166, 211, 232); width: 87px; height: 18px; float: left; background-color: rgb(255, 255, 255);
+}
+.nri {
+	font-size: 13px; float: right;
+}
+.nri .frii {
+	width: 55px; padding-top: 8px; font-size: 14px; margin-left: 5px; float: left;
+}
+.frii .int {
+	background: url("/images/login_oa_bar.gif") no-repeat 0px 0px; border: currentColor; width: 51px; height: 21px; text-align: center; color: rgb(42, 78, 138); line-height: 21px; font-size: 12px; float: left;
+}
+.nri .ccc {
+	overflow: hidden; padding-left: 10px; float: left;
+}
+.ccc .txtt {
+	color: rgb(128, 128, 128); padding-left: 10px; float: left;
+}
+.txtt a {
+	color: rgb(128, 128, 128); text-decoration: none;
+}
+.txtt a:hover {
+	color: rgb(128, 128, 128); text-decoration: none;
+}
+.MessageDiv {
+	background: rgb(255, 249, 217); margin: 10px auto auto; padding: 10px; border: 1px solid rgb(255, 204, 51); width: 800px; text-align: center; line-height: 150%;
+}
+.footer {
+	margin: 10px auto auto; width: 980px; text-align: center; overflow: hidden;
+}
+#footer {
+	margin: 10px auto auto; width: 980px; text-align: center; overflow: hidden;
+}
+.footer_link {
+	margin: 5px auto; width: 92%; height: 25px; line-height: 25px; overflow: hidden; border-bottom-color: rgb(136, 198, 229); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.footer_cont p {
+	width: 88%; color: rgb(178, 178, 178); line-height: 20px;
+}

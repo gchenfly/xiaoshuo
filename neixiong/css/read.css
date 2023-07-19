@@ -1,0 +1,123 @@
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.place {
+	background: rgb(255, 255, 204); border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(192, 217, 207) rgb(192, 217, 207); margin: 0px auto; padding: 0px 10px; width: 958px; height: 28px; line-height: 28px; overflow: hidden; font-size: 14px;
+}
+.place .fr a {
+	margin: 0px 5px; color: rgb(0, 77, 0);
+}
+.place .fr span {
+	margin: 0px 5px; color: rgb(0, 77, 0);
+}
+.sdt {
+	background: rgb(255, 255, 255); margin: 5px auto 0px; border: 1px solid rgb(229, 229, 229); color: rgb(68, 68, 68); overflow: hidden;
+}
+.content_read {
+	margin: 0px auto; width: 980px; overflow: hidden;
+}
+.box_con {
+	border: 3px solid rgb(136, 198, 229); margin-top: 5px;
+}
+.con_top {
+	padding: 0px 10px; height: 40px; text-align: left; line-height: 40px; overflow: hidden; border-bottom-color: rgb(136, 198, 229); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(225, 236, 237);
+}
+.con_top #page_set {
+	height: 20px; text-align: right; line-height: 20px; padding-top: 10px; padding-right: 5px; float: right;
+}
+.ad250 {
+	margin: 0px auto; width: 930px;
+}
+.ad250 .ad1 {
+	padding: 2px; border: 1px dotted rgb(136, 198, 229); width: 300px; height: 260px; margin-right: 5px; float: left;
+}
+.ad250 .ad2 {
+	padding: 2px; border: 1px dotted rgb(136, 198, 229); width: 300px; height: 260px; margin-right: 5px; float: left;
+}
+.ad250 .ad3 {
+	padding: 2px; border: 1px dotted rgb(136, 198, 229); width: 300px; height: 260px; float: left;
+}
+.bookname {
+	margin: auto; width: 920px; line-height: 30px; padding-bottom: 8px; border-bottom-color: rgb(136, 198, 229); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.bookname h1 {
+	font: 25px/35px "ºÚÌå"; text-align: center; padding-top: 10px; font-size-adjust: none; font-stretch: normal;
+}
+.content {
+	margin: 0px auto 0px -8px; width: 940px; line-height: 150%; overflow: hidden; padding-top: 15px;
+}
+.content a {
+	color: rgb(85, 85, 85);
+}
+#bdshare {
+	
+}
+.bottem {
+	margin: auto 15px; padding: 10px; width: 900px; text-align: center; clear: both !important; border-top-color: rgb(136, 198, 229); border-top-width: 1px; border-top-style: dashed;
+}
+.bottem a {
+	color: rgb(8, 83, 8); overflow: hidden; font-size: 14px; margin-right: 10px; margin-left: 10px;
+}
+.lm {
+	background: rgb(231, 255, 181); padding: 5px; border: 2px solid rgb(102, 204, 51); width: 915px; text-align: center; overflow: hidden; margin-top: 8px; white-space: nowrap; text-overflow: ellipsis;
+}
+.lm a {
+	color: rgb(102, 153, 0); font-size: 14px;
+}
+.reader_mark0 {
+	top: 100px; right: 5px; position: fixed; _margin-top: 100px; _position: absolute; _bottom: auto;
+}
+.reader_mark1 {
+	top: 200px; right: 5px; position: fixed; _margin-top: 200px; _position: absolute; _bottom: auto;
+}
+.reader_mark0 img {
+	border: 0px currentColor;
+}
+.reader_mark1 img {
+	border: 0px currentColor;
+}
+#booktext {
+	padding: 8px 10px 10px 3.1%; font-size: 16px;
+}
+#TextSelect {
+	height: 44px; text-align: center; line-height: 44px; overflow: hidden; margin-top: 5px; margin-left: 10px;
+}
+#TextSelect span {
+	height: 44px; margin-left: 10px; float: left; display: inline;
+}
+#TextSelect img {
+	margin-top: 11px; margin-left: 6px; float: left; display: inline;
+}
+.ts1 {
+	width: 280px; float: left; display: inline;
+}
+.ts2 {
+	width: 170px; float: left; display: inline;
+}
+.ts3 {
+	width: 160px; float: left; display: inline;
+}
+.ts4 {
+	width: 400px; float: right; display: inline;
+}
+.ts4 a {
+	color: rgb(68, 68, 68); font-size: 14px; text-decoration: none;
+}
+.ts4 a:hover {
+	color: rgb(255, 0, 0);
+}
+.reader_mark0 {
+	top: 100px; right: 5px; overflow: hidden; position: fixed; _margin-top: 100px; _position: absolute; _bottom: auto;
+}
+.reader_mark1 {
+	top: 200px; right: 5px; overflow: hidden; position: fixed; _margin-top: 200px; _position: absolute; _bottom: auto;
+}
+.reader_mark0 img {
+	border: 0px currentColor; overflow: hidden;
+}
+.reader_mark1 img {
+	border: 0px currentColor; overflow: hidden;
+}

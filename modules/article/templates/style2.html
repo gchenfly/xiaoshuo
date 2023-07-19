@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{?$jieqi_title?}_{?$article_title?}_{?$sortname?}_{?$jieqi_sitename?}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<meta name="keywords" content="{?$article_title?},{?$jieqi_title?}" />
+<meta name="description" content="{?$jieqi_sitename?}提供了{?$author?}创作的{?$sortname?}《{?$article_title?}》文字打手章节：{?$jieqi_title?}在线阅读。" />
+<link rel="stylesheet" type="text/css" href="/neixiong/css/common.css"/>
+<link rel="stylesheet" type="text/css" href="/neixiong/css/read.css"/>
+<script type="text/javascript">
+<!--
+var preview_page = "{?$preview_page?}";
+var next_page = "{?$next_page?}";
+var index_page = "{?$index_page?}";
+var article_id = "{?$article_id?}";
+var chapter_id = "{?$chapter_id?}";
+function jumpPage() {
+  var event = document.all ? window.event : arguments[0];
+  if (event.keyCode == 37) document.location = preview_page;
+  if (event.keyCode == 39) document.location = next_page;
+  if (event.keyCode == 13) document.location = index_page;
+}
+document.onkeydown=jumpPage;
+-->
+</script>
+</head>
+<body>
+<div id="wrapper">
+<div class="header">
+<div class="header_logo"><a href="{?$jieqi_url?}">{?$jieqi_sitename?} </a></div>
+<div class="header_search"><form method="get" action="{?$jieqi_modules['article']['url']?}/search.php" target="_blank">
+<input type="text" name="searchkey" class="search"  id="search_keyword"  /> <button type="submit">搜 小 说</button></form></div>
+<div class="userpanel"><p><a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('{?$jieqi_url?}#sy');" href="#">设为首页</a> | <a target="_top" href="javascript:window.external.addFavorite('{?$jieqi_url?}#sc','{?$jieqi_sitename?} %20-%20网络小说阅读首选站');">加入收藏</a><br /><a href="/newmessage.php?tosys=1&title={?$article_title?} - {?$jieqi_title?} 章节出错啦!&content=错误章节：{?$jieqi_title?} ++++ 举报原因如下： " target="_blank"><font color="red">章节错误/点此举报</font></a></p></div>
+</div>
+<div class="nav">
+<ul>
+<li><a href="{?$jieqi_url?}/">首　页</a></li>
+<li><a href="/sort/1/1.html">玄幻魔法</a></li>
+<li><a href="/sort/3/1.html">都市言情</a></li>  
+<li><a href="/sort/2/1.html">武侠仙侠</a></li>
+<li><a href="/sort/4/1.html">历史军事</a></li>
+<li><a href="/sort/6/1.html">网游动漫</a></li>
+<li><a href="/sort/7/1.html">科幻小说</a></li>
+<li><a href="{?$jieqi_url?}/modules/article/index.php?fullflag=1">全本小说</a></li>
+<li><a href="/top/lastupdate/1.html">最近更新</a></li>
+<li><a href="/top/allvisit/1.html">总排行榜</a></li>
+</ul>
+</div>
+
+
+<div class="content_read">
+<span id="readtools"></span>
+<div id="box_con">
+<div class="con_top">
+<!-- Baidu Button BEGIN -->
+<div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+<span class="bds_more"><font color="red">宣传、收藏、推荐《{?$article_title?}》</font></span>
+</div>
+<!-- Baidu Button END -->
+当前位置：<a href="/">{?$jieqi_sitename?}</a> &gt; <a href="/sort_{?$sortid?}_1.html">{?$sortname?}</a>  &gt; <a href="{?$index_page?}">{?$article_title?}</a> &gt; {?$jieqi_title?}
+</div>
+<div class="bookname">
+<h1>{?$jieqi_title?}</h1>
+<p>书名：{?$article_title?}&nbsp;&nbsp;类别：{?$sortname?}&nbsp;&nbsp;作者：{?$author?} || <a href="{?$preview_page?}">上一章</a> &larr; <a href="{?$index_page?}" title="{?$article_title?}最新章节列表">章节列表</a> &rarr; <a href="{?$next_page?}">下一章</a></p>
+</div>
+<div id="content" name="content">
+
+<div>
+
+</div>
+
+<!--章节内容开始--><p>{?$jieqi_content?}</p><!--章节内容结束-->
+
+
+</div>
+
+
+<div class="bottem">
+<a href="{?$preview_page?}">上一章</a> &larr; <a href="{?$index_page?}" title="{?$article_title?}最新章节目录">章节目录</a> &rarr; <a href="{?$next_page?}">下一章</a>
+<p>小技巧：按 Ctrl+D 快速保存当前章节页面至浏览器收藏夹；按 回车[Enter]键 返回章节目录，按 &larr;键 回到上一章，按 &rarr;键 进入下一章。</p>
+</div>
+</div>
+</div>
+<div id="span_readtools" style="display:none"><script type="text/javascript" src="/neixiong/js/readtop.js"></script></div>
+<div class="footer">
+<div class="footer_cont">
+<p><a href="{?$index_page?}"><font color="#b2b2b2">{?$article_title?}最新章节</font></a>内容由网友收集并提供，转载至{?$jieqi_sitename?}只是为了宣传《{?$article_title?}》让更多书友知晓。</p>
+<p>Copyright &copy; 2012 {?$jieqi_sitename?} All Rights Reserved.</p>
+<p><script type="text/javascript" src="/neixiong/js/read.js"></script></p>
+</div>
+<br>方便以后阅读<STRONG>{?$article_title?}最新章节</STRONG>更新连载 
+</div>
+<script type="text/javascript" src="/neixiong/js/bookname.js"></script>
+<script type="text/javascript" src="/neixiong/js/showall.js"></script>
+<script type="text/javascript" src="/neixiong/js/readtmp.js"></script>
+</body>
+</html>

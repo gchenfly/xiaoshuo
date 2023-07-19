@@ -1,0 +1,180 @@
+* {
+	margin: auto; padding: 0px; font-family: ËÎÌו; font-size: 12px; text-decoration: none; list-style-type: none;
+}
+img {
+	border: 0px currentColor;
+}
+.none {
+	display: none;
+}
+.clear {
+	clear: both;
+}
+a:hover {
+	color: red; text-decoration: underline;
+}
+#main {
+	margin: auto; width: 980px;
+}
+#admin {
+	margin: 5px; padding: 3px; border: 2px solid rgb(225, 236, 237); width: 88%; height: 30px; text-align: center; line-height: 30px;
+}
+table.grid caption {
+	border-width: 2px 2px 0px; border-style: solid solid none; border-color: rgb(195, 223, 234) rgb(195, 223, 234) currentColor; margin: auto; text-align: center; padding-top: 5px; padding-bottom: 5px; font-size: 14px; font-weight: bold; vertical-align: middle; background-color: rgb(225, 236, 237);
+}
+.gridtop {
+	border-width: 2px 2px 0px; border-style: solid solid none; border-color: rgb(195, 223, 234) rgb(195, 223, 234) currentColor; margin: auto; text-align: center; padding-top: 5px; padding-bottom: 5px; font-size: 14px; font-weight: bold; vertical-align: middle; background-color: rgb(225, 236, 237);
+}
+table.grid {
+	margin: auto; padding: 3px; border: 2px solid rgb(195, 223, 234); border-collapse: collapse;
+}
+table.grid td {
+	padding: 4px; border: 1px solid rgb(195, 223, 234); background-color: rgb(255, 255, 255) !important;
+}
+.hottext {
+	color: red;
+}
+#hotcontent {
+	padding-top: 10px;
+}
+#hotcontent .l {
+	background: rgb(254, 249, 239); padding: 0px 0px 10px; border: 3px solid rgb(195, 223, 234); width: 695px; height: 330px; overflow: hidden; float: left;
+}
+#hotcontent .l .item {
+	padding: 10px 0px 0px 10px; width: 335px; float: left;
+}
+#hotcontent .l .item .image {
+	width: 120px; float: left;
+}
+#hotcontent .l .item .image img {
+	padding: 1px; border: 1px solid rgb(221, 221, 221); background-color: white;
+}
+#hotcontent .l .item dl {
+	padding: 0px 5px 0px 0px; width: 190px; float: right;
+}
+#hotcontent .l .item dl dt {
+	height: 25px; line-height: 25px; overflow: hidden; font-size: 14px; font-weight: bold; border-bottom-color: rgb(166, 211, 232); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#hotcontent .l .item dl dt span {
+	color: rgb(179, 179, 179); font-weight: normal; float: right;
+}
+#hotcontent .l .item dl dd {
+	padding: 7px 0px 0px; height: 120px; line-height: 20px; text-indent: 2em; overflow: hidden;
+}
+#hotcontent .r {
+	border: 3px solid rgb(195, 223, 234); width: 265px; float: right;
+}
+#hotcontent h2 {
+	margin: 0px; padding: 0px 0px 0px 10px; height: 30px; line-height: 30px; overflow: hidden; font-size: 14px; font-weight: bold; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(225, 236, 237);
+}
+#flash {
+	height: 308px; overflow: hidden;
+}
+.novelslist {
+	background: rgb(254, 249, 239); margin: 10px auto; padding: 3px; border: 3px solid rgb(166, 211, 232); width: 968px;
+}
+.novelslist .content {
+	padding: 0px 3px; width: 315px; border-right-color: rgb(166, 211, 232); border-right-width: 1px; border-right-style: dotted; float: left;
+}
+.novelslist .content h2 {
+	margin: 0px; height: 25px; line-height: 25px; overflow: hidden; padding-left: 5px; font-size: 14px; font-weight: bold; border-bottom-color: rgb(166, 211, 232); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.novelslist .content .image {
+	padding: 10px 0px 0px 5px; width: 71px; float: left;
+}
+.novelslist .content .image img {
+	padding: 1px; border: 1px solid rgb(221, 221, 221); width: 67px; height: 82px; background-color: white;
+}
+.novelslist .content dl {
+	padding: 10px 0px 0px; width: 219px; float: right;
+}
+.novelslist .content dl dt {
+	height: 25px; line-height: 25px; overflow: hidden; font-weight: bold;
+}
+.novelslist .content dl dd {
+	height: 60px; line-height: 20px; overflow: hidden;
+}
+.novelslist .content ul {
+	padding: 10px 0px 0px;
+}
+.novelslist .content ul li {
+	width: 155px; height: 20px; color: rgb(179, 179, 179); line-height: 20px; overflow: hidden; font-size: 12px; float: left;
+}
+.novelslist .content ul li a {
+	font-size: 13px;
+}
+.novelslist .border {
+	border: 0px currentColor;
+}
+#newscontent {
+	margin: auto;
+}
+#newscontent .l {
+	background: rgb(225, 236, 237); border: 3px solid rgb(136, 198, 229); width: 695px; float: left;
+}
+#newscontent .l ul {
+	padding: 10px;
+}
+#newscontent .l li {
+	padding: 5px 0px 0px; height: 25px; line-height: 25px; overflow: hidden; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#newscontent .l li span {
+	float: left; display: inline-block;
+}
+#newscontent .l li .s1 {
+	width: 75px;
+}
+#newscontent .l li .s2 {
+	width: 165px;
+}
+#newscontent .l li .s3 {
+	width: 300px;
+}
+#newscontent .l li .s4 {
+	width: 90px; text-align: right; color: rgb(179, 179, 179);
+}
+#newscontent .l li .s5 {
+	text-align: right; color: rgb(179, 179, 179); float: right;
+}
+#newscontent .l li a {
+	color: rgb(111, 120, 167);
+}
+#newscontent .r {
+	background: rgb(225, 236, 237); border: 3px solid rgb(136, 198, 229); width: 265px; float: right;
+}
+#newscontent .r ul {
+	padding: 10px;
+}
+#newscontent .r li {
+	padding: 5px 0px 0px; height: 25px; line-height: 25px; overflow: hidden; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#newscontent .r li span {
+	float: left; display: inline-block;
+}
+#newscontent .r li .s1 {
+	width: 40px;
+}
+#newscontent .r li .s2 {
+	color: rgb(179, 179, 179);
+}
+#newscontent .r li .s3 {
+	width: 30px;
+}
+#newscontent .r li .s4 {
+	width: 50px; color: rgb(179, 179, 179);
+}
+#newscontent .r li .s5 {
+	text-align: right; float: right;
+}
+#newscontent .r li a {
+	color: rgb(111, 120, 167);
+}
+#newscontent h2 {
+	margin: 0px; padding: 0px 0px 0px 10px; height: 30px; line-height: 30px; overflow: hidden; font-size: 14px; font-weight: bold; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(166, 211, 232);
+}
+#firendlink {
+	margin: 10px auto; padding: 9px 0px 9px 9px; border: 1px solid rgb(221, 221, 221); width: 949px; line-height: 22px;
+}
+#firendlink a {
+	margin: 0px 9px 0px 0px; color: rgb(84, 129, 97); display: inline-block;
+}

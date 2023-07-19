@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{?$articlename?}最新章节_{?$jieqi_sitename?}</title>
+<meta http-equiv="refresh" content="0.1;url={?$url_read?}">
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<meta name="keywords" content="{?$articlename?},{?$articlename?}最新章节" />
+<meta name="description" content="{?$articlename?}最新章节由网友提供，《{?$articlename?}》情节跌宕起伏、扣人心弦，是一本情节与文笔俱佳的修真小说，{?$jieqi_sitename?}免费提供{?$articlename?}最新章节列表目录在线阅读。" />
+<link rel="stylesheet" type="text/css" href="/neixiong/css/common.css"/>
+<link rel="stylesheet" type="text/css" href="/neixiong/css/list.css"/>
+</head>
+<body>
+<div id="wrapper">
+<div class="ywtop">
+	<div class="ywtop_con">
+		<div class="ywtop_sethome"><a onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('{?$jieqi_url?}');" href="#">将{?$jieqi_sitename?}设为首页</a></div>
+		<div class="ywtop_addfavorite"><a href="javascript:window.external.addFavorite('{?$jieqi_url?}','{?$article_title?}_书友最值得收藏的网络小说阅读网')">收藏{?$jieqi_sitename?}</a></div>
+		<script language="javascript" src="/neixiong/js/denglu.js"></script>
+	</div>
+</div>
+<div class="header">
+<div class="header_logo"><a href="{?$jieqi_url?}">{?$jieqi_sitename?}</a></div>
+<div class="header_search"><form method="get" action="/modules/article/search.php" target="_blank">
+<input type="text" name="searchkey" class="search"  id="search_keyword"  /> <button type="submit">搜 一 下</button></form></div>
+<div class="userpanel"></div>
+</div>
+<div class="nav">
+<ul>
+<li><a href="{?$jieqi_url?}/">首　页</a></li>
+<li><a href="/sort/1/1.html">玄幻魔法</a></li>
+<li><a href="/sort/2/1.html">武侠仙侠</a></li>  
+<li><a href="/sort/3/1.html">都市言情</a></li>
+<li><a href="/sort/4/1.html">历史军事</a></li>
+<li><a href="/sort/5/1.html">侦探推理</a></li>
+<li><a href="/sort/6/1.html">网游动漫</a></li>
+<li><a href="/sort/7/1.html">科幻小说</a></li>
+<li><a href="/sort/8/1.html">恐怖灵异</a></li>
+<li><a href="/sort/9/1.html">同人小说</a></li>
+</ul>
+</div>
+
+    
+<div class="box_con">
+<div class="con_top">
+<!-- Baidu Button BEGIN -->
+<div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+<span class="bds_more"><font color="red">宣传、收藏、推荐《{?$articlename?}》到：</font></span>
+<a class="bds_baidu"></a><a class="bds_hi"></a><a class="bds_tieba"></a><a class="bds_qzone"></a><a class="bds_tqq"></a><a class="bds_qq"></a><a class="bds_tsina"></a><a class="bds_renren"></a>
+</div><!-- Baidu Button END -->
+当前位置：<a href="/">{?$jieqi_sitename?}</a> &gt; <a href="/sort_{?$sortid?}_1.html">{?$sortname?}</a>  &gt; {?$articlename?}最新章节列表
+</div>
+  
+<div id="sidebar">
+<div class="sidebartitle">{?$articlename?}的书迷同时还在看：</div>
+<div class="sidebarlist">
+{?block bid="sidelist" module="article" filename="block_articlelist" classname="BlockArticleArticlelist" side="0" title="书页侧边列表" vars="allvisit,14,$sortid,0,0,0" template="shuyepaihang.html" contenttype="4" custom="0" publish="3" hasvars="1"?}
+</div>
+<div class="xian"></div>
+<div class="sidebartitle">编辑推荐给您好看的小说：</div>
+<div class="sidebarlist">
+{?block bid="sidelist" module="article" filename="block_articlelist" classname="BlockArticleArticlelist" side="0" title="书页侧边列表" vars="allvote,14,$sortid,0,0,0" template="shuyepaihang.html" contenttype="4" custom="0" publish="3" hasvars="1"?}
+</div>
+</div>
+<div id="maininfo">
+<div id="fmimg"><img alt="{?$articlename?}" src="{?if $hasimage == 1?}{?$url_limage?}{?else?}/neixiong/noimg.jpg{?/if?}" /></div>
+<div id="info">
+<h1>{?$articlename?}</h1>作&nbsp;&nbsp;&nbsp;&nbsp;者：{?$author?}
+<p>类&nbsp;&nbsp;&nbsp;&nbsp;别：{?$sort?}</p>
+<p>状&nbsp;&nbsp;&nbsp;&nbsp;态：{?$fullflag?}...</p>
+<p>马&nbsp;&nbsp;&nbsp;&nbsp;上：<a href="{?$url_read?}" target="_blank">点击阅读</a></p>
+<p>下&nbsp;&nbsp;&nbsp;&nbsp;载：<a href="/modules/article/txtarticle.php?id={?$articleid?}" target="_blank">点击下载</a></p>
+<p>最新章节：<a href="{?$url_lastchapter?}">{?$lastchapter?}</a></p>
+</div>
+<div id="intro">
+<p><font size="3">小说{?$articlename?}的简介：</font></p>
+<p>{?$intro?}
+</p>
+<p>&nbsp;&nbsp;&nbsp; 各位书友要是觉得《{?$articlename?}》还不错的话请不要忘记向您QQ群和微博里的朋友推荐哦！</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<div class="footer_link">{?$articlename?}的邻居：<a href="/0_445/">娇妻如云</a>、
+<a href="/0_444/">数字风暴</a>、
+<a href="/0_443/">化星</a>、
+<a href="/0_442/">妖弓</a>、
+<a href="/0_441/">无尽剑装</a>、
+<a href="/0_440/">超级大忽悠</a>、
+<a href="/0_439/">我的老婆是军阀</a>、
+<a href="/0_438/">仙绝</a>、
+<a href="/0_437/">在西汉的悠闲生</a>、
+<a href="/0_436/">{?$articlename?}</a> </div>
+<div class="footer_cont">
+<p>《{?$articlename?}》情节跌宕起伏、扣人心弦，是一本情节与文笔俱佳的修真小说,{?$jieqi_sitename?}提供{?$articlename?}最新章节列表目录在线阅读。</p>
+<p>{?$articlename?}最新章节内容由网友收集并提供，转载至{?$jieqi_sitename?}只是为了宣传《{?$articlename?}》让更多书友知晓。</p>
+<p>Copyright &copy; 2012 {?$jieqi_sitename?} All Rights Reserved.</p>
+<p><script type="text/javascript" src="/neixiong/js/list.js"></script></p>
+</div>
+</div>
+</div>
+<script type="text/javascript" src="/neixiong/js/bookname.js"></script>
+<script type="text/javascript" src="/neixiong/js/showall.js"></script>
+</body>
+</html>

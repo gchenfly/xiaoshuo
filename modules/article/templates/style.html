@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>{?$jieqi_title?}_{?$article_title?}_{?$jieqi_sitename?}</title>
+<meta http-equiv="Content-Type" content="text/html; charset={?$jieqi_charset?}" />
+<meta name="keywords" content="{?$article_title?},{?$jieqi_title?}," />
+<meta name="description" content="{?$jieqi_sitename?}提供了{?$author?}创作的{?$sortname?}《{?$article_title?}》干净清爽无错字的文字章节：{?$jieqi_title?}在线阅读。" />
+<link rel="icon" href="/ico.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/ico.ico" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="/neixiong/css/common.css"/>
+<link rel="stylesheet" type="text/css" href="/neixiong/css/read.css"/>
+<script type="text/javascript" src="/neixiong/js/jquery.js"></script>
+<script type="text/javascript" src="/neixiong/js/read.top.js"></script>
+<script language="javascript" type="text/javascript"> 
+var preview_page = "/read/{?$article_id?}/{?$preview_chapterid?}.html";
+var next_page = "/read/{?$article_id?}/{?$next_chapterid?}.html";
+var index_page = "/read/{?$articleid?}.html";
+var article_id = "{?$article_id?}";
+var chapter_id = "{?$chapter_id?}";
+function jumpPage() {
+  var event = document.all ? window.event : arguments[0];
+  if (event.keyCode == 37) document.location = preview_page;
+  if (event.keyCode == 39) document.location = next_page;
+  if (event.keyCode == 13) document.location = index_page;
+}
+document.onkeydown=jumpPage;
+function showpop(url) {
+	$.get(url, function(data){
+		$.messager.lays(260, 120);
+		$.messager.anim('fade', 1000);
+		$.messager.show("提示信息", data ,5000);
+	});
+}
+</script>
+</head>
+<body>
+<div id="wrapper">
+<div class="ywtop">
+	<div class="ywtop_con">
+		<div class="ywtop_sethome"><a onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('{?$jieqi_url?}');" href="#">将{?$jieqi_sitename?}设为首页</a></div>
+		<div class="ywtop_addfavorite"><a href="javascript:window.external.addFavorite('{?$jieqi_url?}','{?$article_title?}_书友最值得收藏的网络小说阅读网')">收藏{?$jieqi_sitename?}</a></div>
+		<script language="javascript" src="/neixiong/js/denglu.js"></script>
+	</div>
+</div>
+<div class="header">
+<div class="header_logo"><a href="{?$jieqi_url?}">{?$jieqi_sitename?}</a></div>
+<div class="header_search"><form method="get" action="/modules/article/search.php" target="_blank">
+<input type="text" name="searchkey" class="search"  id="search_keyword"  /> <button type="submit">搜 一 下</button></form></div>
+<div class="userpanel"></div>
+</div>
+<div class="nav">
+<ul>
+<li><a href="{?$jieqi_url?}/">首　页</a></li>
+<li><a href="/sort/1/1.html">玄幻魔法</a></li>
+<li><a href="/sort/2/1.html">武侠仙侠</a></li>  
+<li><a href="/sort/3/1.html">都市言情</a></li>
+<li><a href="/sort/4/1.html">历史军事</a></li>
+<li><a href="/sort/5/1.html">侦探推理</a></li>
+<li><a href="/sort/6/1.html">网游动漫</a></li>
+<li><a href="/sort/7/1.html">科幻小说</a></li>
+<li><a href="/sort/8/1.html">恐怖灵异</a></li>
+<li><a href="/sort/9/1.html">同人小说</a></li>
+</ul>
+</div>
+ <!--当前位置-->
+  <div class="place">
+<div class="fr"><a href="javascript:;" onclick="showpop('/modules/article/addbookcase.php?id={?$articleid?}&cid={?$chapterid?}&ajax_request=1');">加入书签</a>&nbsp; <a href="javascript:;" onclick="showpop('/modules/article/uservote.php?id={?$articleid?}&ajax_request=1');">推荐本书</a>&nbsp; <a href="/modules/article/txtarticle.php?id={?$articleid?}" target="_blank">下载本书</a>&nbsp; <a href="/book/{?$article_id?}.html">返回目录</a></div>
+    <div class="fl"><a href="{?$jieqi_url?}">{?$jieqi_sitename?}</a>&nbsp;&gt;&nbsp;<a href="/mulu/{?$sortid?}.html">{?$sortname?}</a>&nbsp;&gt;&nbsp;<a href="/book/{?$article_id?}.html">{?$article_title?}</a> &gt; {?$jieqi_title?}
+</div>
+</div>
+  <!--当前位置END-->
+<div class="content_read" id="bgdiv">
+<div class="sdt">
+<!-- Baidu Button BEGIN -->
+    <div id="bdshare" class="bdshare_b" style="line-height: 12px;float:right;margin-top:13px;margin-right:13px;overflow:hidden;"><img src="http://bdimg.share.baidu.com/static/images/type-button-1.jpg" />
+		<a class="shareCount"></a>
+	</div>
+<script type="text/javascript">TplTextSelect();</script></div>
+<div class="box_con">
+<div class="bookname">
+<h1>{?$jieqi_title?}</h1>
+</div>
+<br>
+<div class="ad250"> 
+</div>
+<div class="content" id="booktext"><!--go-->
+{?$jieqi_content?}
+<center><br> <A href="/book/{?$article_id?}.html">{?$jieqi_sitename?}</A> {?$article_title?}章节列表<A href="/book/{?$article_id?}.html"> {?$jieqi_url?}/book/{?$article_id?}.html</A><br></center>
+<!--over-->
+<div class="bdlikebutton" style="margin-top:5px;"></div>
+</div>
+ 
+<div class="bottem">
+<p>温馨提示：方向键左右(← →)前后翻页，上下(↑ ↓)上下滚用， 回车键:返回列表</p>
+<a href="javascript:;" onclick="showpop('/modules/article/uservote.php?id={?$articleid?}&ajax_request=1');">投推荐票</a> <script type="text/javascript"><!-- 
+var str = "{?$preview_page?}";
+if(str.getQuery("cid"))
+{
+document.write("<a href=/read/{?$article_id?}/"+str.getQuery("cid")+".html>上一章</a>");
+}
+else
+{
+document.write("<a class='btnlink' href=/book/{?$article_id?}.html title='返回{?$article_title?}介绍'>返回书页</a>");
+}
+//--> </script> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="/book/{?$articleid?}.html">返回目录</a>(快捷键:回车) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <script type="text/javascript"><!-- 
+var str = "{?$next_page?}";
+if(str.getQuery("cid"))
+{
+document.write("<a href=/read/{?$article_id?}/"+str.getQuery("cid")+".html>下一章</a>");
+}
+else
+{
+document.write("<a class='btnlink' href=/book/{?$article_id?}.html title='返回{?$article_title?}介绍'>返回书页</a>");
+}
+//--> </script><a href="javascript:;" onclick="showpop('/modules/article/addbookcase.php?id={?$articleid?}&cid={?$chapterid?}&ajax_request=1');">加入书签</a>
+</div>
+<p style="margin-top:5px;"></p>
+</div>
+<div class="footer">
+<div class="footer_link">
+ </div>
+<div class="footer_cont">
+<p><a href="{?$url_articleinfo?}"><font color="#b2b2b2"><strong>{?$article_title?}最新章节</strong></font></a>内容由网友收集并提供，转载至{?$jieqi_sitename?}只是为了宣传《<a href="{?$url_articleinfo?}"><font color="#b2b2b2"><strong>{?$article_title?}</strong></font></a>》让更多书友知晓。</p>
+<p>Copyright &copy; 2012 <A href="{?$jieqi_url?}">{?$jieqi_sitename?}</A> All Rights Reserved.</p>
+<div style="display:none"><script type="text/javascript" src="/neixiong/js/tongji.js"></script></div>
+</div>
+</div>
+</div>
+<script type="text/javascript" id="bdshare_js" data="type=button&amp;uid=588458" ></script>
+<script type="text/javascript" id="bdshell_js"></script>
+<script type="text/javascript"> 
+	document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + new Date().getHours();
+</script>
+ 
+<script id="bdlike_shell"></script>
+<script> 
+var bdShare_config = {
+	"type":"medium",
+	"color":"blue",
+	"uid":"588458",
+	"share":"yes"
+};
+document.getElementById("bdlike_shell").src="http://bdimg.share.baidu.com/static/js/like_shell.js?t=" + new Date().getHours();
+</script>
+</body>
+</html>

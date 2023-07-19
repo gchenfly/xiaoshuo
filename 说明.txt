@@ -1,0 +1,54 @@
+将所有文件传如跟目录覆盖,
+安装好后
+ 》数据维护 》数据库升级 》 执行以下代码
+
+DROP TABLE `jieqi_system_blocks`;
+
+
+然后系统定义风格里面更换原来的：
+
+jieqi160换成neixiong
+
+
+
+然后用记事本打开根目录下的jieqi_system_blocks.sql,复制
+
+然后导入数据库   》数据维护 》数据库升级 》 ,将刚才复制的粘帖进去,执行
+
+
+找到：系统管理——区块管理
+任意选择一个区块并编辑，不需要修改任何内容，保存即可
+里面已经有了已经建好的区块 以后首页的各区块推荐的书都在这里设置
+
+推荐书的ID：比如一本书的ID是3、4、5、6 推荐的格式就是：3|4|5|6 ID的查看：http://www.wedshop.cc/modules/article/articleinfo.php?id=11  11就是这本书的ID 
+
+找到：系统工具
+依次清理<清理区块缓存>、<清理网页缓存>、<清理程序编译缓存>.
+找到：数据维护
+依次操作<数据库修复>、<数据库优化>.
+
+
+
+伪静态注意：
+把“文章信息页面伪静态规则”这里填写上
+/read/<{$id}>.html
+
+把“文章分类页面伪静态规则”这里填写上
+/sort/<{$class}>/<{$page}>.html
+排行榜：
+/top/<{$sort}>/<{$page}>.html
+使用杰奇专用的伪静态组件需要修改：
+httpd.ini里面：
+分类：RewriteRule ^sort/([0-9]+)/([0-9]+).html$ modules/article/articlelist\.php\?class=$1&page=$2
+目录和内容页面：
+RewriteRule ^read/([0-9]+)\.html$ modules/article/reader\.php\?aid=$1
+RewriteRule ^read/([0-9]+)/([0-9]+)\.html$ modules/article/reader\.php\?aid=$1&cid=$2
+使用普通伪静态组件需要修改：
+分类：RewriteRule ^(.*)/sort/([0-9]+)/([0-9]+).html$ $1/modules/article/articlelist\.php\?class=$2&page=$3 [L]
+目录和内容页面：
+RewriteRule ^(.*)/read/([0-9]+)\.html$ $1/modules/article/reader\.php\?aid=$2 [L]
+RewriteRule ^(.*)/read/([0-9]+)/([0-9]+)\.html$ $1/modules/article/reader\.php\?aid=$2&cid=$3
+
+
+爱源码社区：https://www.wedshop.cc/
+ 
